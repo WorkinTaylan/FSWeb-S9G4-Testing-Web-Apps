@@ -24,13 +24,13 @@ Yazacağınız testler, productiona pushladığınız koda güvenmenize yardımc
 
 ### Görev 1: Proje Kurulumu
 
-- [ ] Forklayın.
-- [ ] Klonlayın.
-- [ ] `npm install`
-- [ ] `npm start`
-- [ ] Başka terminalde `npm test`
-- [ ] Editörünüzde yapıp kaydettiğiniz tüm değişiklikler için, test çalıştırıcısı tarafından tüm testler yenilenir
-- [ ] **ÖNEMLİ** Eğer testiniz geçemezse, test çalıştırıcısının hata mesajından neden başarasız olduğunu gözlemleyin
+- [ *] Forklayın.
+- [ *] Klonlayın.
+- [ *] `npm install`
+- [ *] `npm start`
+- [ *] Başka terminalde `npm test`
+- [ *] Editörünüzde yapıp kaydettiğiniz tüm değişiklikler için, test çalıştırıcısı tarafından tüm testler yenilenir
+- [ *] **ÖNEMLİ** Eğer testiniz geçemezse, test çalıştırıcısının hata mesajından neden başarasız olduğunu gözlemleyin
 
 ### Görev 2: Proje Gereksinimleri
 
@@ -43,12 +43,12 @@ Yazacağınız testler, productiona pushladığınız koda güvenmenize yardımc
 
 #### Test Caseleri oluşturun, Eğer;
 
-* [ ] iletişim formu hatasız yükleniyorsa.
-* [ ] başlıkta h1 elemanı bulunuyorsa. 2 tane assert ekleyin, eğer header dökümanda bulunuyorsa, başlık doğru test içeriğine sahipse.
-* [ ] kullanıcı Ad bölümüne 5 karakterden az bir şey yazarsa bileşen `1` hata mesajı içeriyorsa. async/await ve state değişimini gözlemlemek için doğru girdileri kullandığınıza emin olun.
-* [ ] kullanıcı hiçbir inputu doldurmadıysa ÜÇ hata mesajı render edildiğinde.
-* [ ] kullanıcı email bölümünü doldurmadığında bileşen BİR hata mesajı render ettiğinde.
-* [ ] eğer kullanıcı geçersiz bir mail girerse *"email geçerli bir email adresi olmalıdır."* hata mesajı render edildiğinde.
-* [ ] form soyad girilmeden gönderilirse *"soyad gereklidir."* hata mesajı render edildiğinde.
-* [ ] mesaj inputu girilmediğinde ama ad,soyad ve email geçerli değerlerle form gönderildiğinde hata mesajı gösterilmiyorsa.
-* [ ] kullanıcı tüm inputları geçerli bir şekilde doldurup gönderdiğinde tüm değerler görüntüleniyor.
+* [Done] iletişim formu hatasız yükleniyorsa.
+* [ Done] başlıkta h1 elemanı bulunuyorsa. 2 tane assert ekleyin, eğer header dökümanda bulunuyorsa, başlık doğru test içeriğine sahipse.
+* [ Done] kullanıcı Ad bölümüne 5 karakterden az bir şey yazarsa bileşen `1` hata mesajı içeriyorsa. async/await ve state değişimini gözlemlemek için doğru girdileri kullandığınıza emin olun.
+* [ Done] kullanıcı hiçbir inputu doldurmadıysa ÜÇ hata mesajı render edildiğinde.
+* [Done ] kullanıcı email bölümünü doldurmadığında bileşen BİR hata mesajı render ettiğinde.
+* [ Done] eğer kullanıcı geçersiz bir mail girerse *"email geçerli bir email adresi olmalıdır."* hata mesajı render edildiğinde.
+* [ Done] form soyad girilmeden gönderilirse *"soyad gereklidir."* hata mesajı render edildiğinde.
+* [ Done] mesaj inputu girilmediğinde ama ad,soyad ve email geçerli değerlerle form gönderildiğinde hata mesajı gösterilmiyorsa.
+* [ Done] kullanıcı tüm inputları geçerli bir şekilde doldurup gönderdiğinde tüm değerler görüntüleniyor.
